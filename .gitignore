@@ -1,9 +1,19 @@
-# Crear y liberar carpetas
+# # Compiled Object files
 bin /
 bin-debug/
 bin-release/
 [Oo]bj/ # FlashDevelop obj
 [Bb]in/ # FlashDevelop bin
+*.slo
+*.lo
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
 
 # Other files and folders
 .settings/
@@ -13,7 +23,23 @@ bin-release/
 *.air
 *.ipa
 *.apk
+*.exe
+*.out
+*.app
 
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
+
+object_script.*
+.DS_Store
+hyperstake-qt
+hyperstake-qt.exe
+hyperstaked
+hyperstaked.exe
+qrc_bitcoin.cpp
+build/*
+release/*
+makefile.release
+makefile.debug
+makefile
