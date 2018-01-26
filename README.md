@@ -22,3 +22,5 @@ Todas las monedas / transacciones existentes deben estar intactas con la actuali
 
 
 Consulte el sitio de a1xcoin:https://creahachip.blogspot.com/p/banco-de-creahachip.html para obtener ayuda y más información.
+
+# Wallet themes
