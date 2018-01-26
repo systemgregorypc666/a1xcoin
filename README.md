@@ -18,3 +18,7 @@ El software busca automáticamente otros nodos para conectarse. Puede habilitar 
 # Upgrade
 
 Todas las monedas / transacciones existentes deben estar intactas con la actualización. Para actualizar la primera copia de seguridad de la billetera a1xcoin  backupwallet <destination_backup_file> A continuación, cierre a1xcoin stop Inicie la nueva a1xcoin.
+
+
+
+Consulte el sitio de a1xcoin:https://creahachip.blogspot.com/p/banco-de-creahachip.html para obtener ayuda y más información.
