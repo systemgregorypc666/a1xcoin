@@ -14,3 +14,7 @@ Descomprime los archivos en un directorio y ejecuta: bin / 32 / a1xcoin (sin cab
 El software busca automáticamente otros nodos para conectarse. Puede habilitar Universal Plug and Play (UPnP) con su enrutador / cortafuegos o puerto de reenvío
 
 18775 (TCP) a su computadora para que pueda recibir conexiones entrantes.  a1xcoin funciona sin conexiones entrantes, pero permitir conexiones entrantes ayuda a la red  a1xcoin.
+
+# Upgrade
+
+Todas las monedas / transacciones existentes deben estar intactas con la actualización. Para actualizar la primera copia de seguridad de la billetera a1xcoin  backupwallet <destination_backup_file> A continuación, cierre a1xcoin stop Inicie la nueva a1xcoin.
