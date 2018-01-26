@@ -1,6 +1,13 @@
 creahachip License
 
-Copyright (c) 2018  system gregory pc
+LICENCIA PÚBLICA GENERAL DE LA REPUBLICA DE CREAHACHIP
+
+Copyright (c) 2018  system gregory pc   Versión 1, 26 de enero de 2018
+
+Preámbulo
+
+  La Licencia Pública General de GNU es una licencia copyleft gratuita para
+software y otros tipos de trabajos.
 
 Se concede permiso, de forma gratuita, a cualquier persona que obtenga una copia
 de este software y los archivos de documentación asociados (el "Software"), para tratar
@@ -12,6 +19,14 @@ amueblado para hacerlo, sujeto a las siguientes condiciones:
 El aviso de copyright anterior y este aviso de permiso se incluirán en todos
 copias o porciones sustanciales del software
 
+Las licencias para la mayoría del software y otros trabajos prácticos están diseñados
+para quitarte la libertad de compartir y cambiar las obras. Por el contrario,
+la Licencia Pública General de GNU está destinada a garantizar su libertad de
+comparte y cambia todas las versiones de un programa para asegurarte de que siga siendo gratuito
+software para todos sus usuarios. Nosotros, la Free Software Foundation, usamos el
+Licencia pública general de GNU E PUBLICA ESTADO SOBERANO 
+
+
 EL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O
 IMPLÍCITO, INCLUIDAS, ENTRE OTRAS, LAS GARANTÍAS DE COMERCIALIZACIÓN,
 APTITUD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN. EN NINGÚN CASO LA
@@ -19,3 +34,10 @@ LOS AUTORES O LOS TITULARES DE LOS DERECHOS DE AUTOR SERÁN RESPONSABLES DE CUAL
 RESPONSABILIDAD, YA SEA EN UNA ACCIÓN CONTRACTUAL, AGRAVIO O DE OTRO TIPO, DERIVADA DE
 FUERA DE O EN RELACIÓN CON EL SOFTWARE O EL USO U OTROS TRATOS EN EL
 SOFTWARE.
+
+ Cuando hablamos de software libre, nos referimos a la libertad, no
+precio. Nuestras Licencias Públicas Generales están diseñadas para asegurarnos de que
+tener la libertad de distribuir copias de software libre (y cobrar por
+ellos si lo desea), que recibe el código fuente o puede obtenerlo si
+quererlo, que puede cambiar el software o usar piezas de él en nuevas
+programas gratuitos, y que usted sabe que puede hacer estas cosas
