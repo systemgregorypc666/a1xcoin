@@ -1,4 +1,4 @@
-# a1xcoin
+# a1xcoin  Core integration/staging tree
 criptomoneda de la nacion creahachip
 Implementación oficial  del
   protocolo.
