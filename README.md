@@ -1,9 +1,17 @@
 # a1xcoin  Core integration/staging tree
+
+https://a1xcoin.blogspot.com/
+
+# What is a1xcoin?
 criptomoneda de la nacion creahachip
 Implementación oficial  del
   protocolo.
   Las versiones automatizadas están disponibles para versiones estables y la rama principal inestable. Los archivos binarios se publican 
-
+     a1xcoin es una nueva moneda digital experimental que permite pagos instantáneos a cualquier persona en cualquier parte del mundo. a1xcoin usa un método de prueba de apuesta para que la red blockchain de a1xcoin logre consenso distribuido. a1xcoin Core es el nombre del software de código abierto que permite el uso de esta moneda.
+     
+     Para obtener más información, así como una versión binaria de uso inmediato del software Paycoin Core, consulte
+                                              https://a1xcoin.blogspot.com/2018/02/wallet.html
+     
 # Intro
 
 a1xcoin es un proyecto de fuente abierta gratuito derivado de otras criptomoneda, con el objetivo de proporcionar una criptomoneda basada en la prueba de la eficacia a largo plazo basada en la actividad humana y maquina IA. Construidas sobre la base de codigo y ADN, las innovaciones, como la prueba de participación, ayudan a avanzar aún más en el campo de la criptomoneda.
