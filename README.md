@@ -9,7 +9,8 @@ Implementación oficial  del
   Las versiones automatizadas están disponibles para versiones estables y la rama principal inestable. Los archivos binarios se publican 
      a1xcoin es una nueva moneda digital experimental que permite pagos instantáneos a cualquier persona en cualquier parte del mundo. a1xcoin usa un método de prueba de apuesta para que la red blockchain de a1xcoin logre consenso distribuido. a1xcoin Core es el nombre del software de código abierto que permite el uso de esta moneda.
      
-   For more information, as well as an immediately usable, binary version of the Paycoin Core software, see 
+   For more information, as well as an immediately usable, binary version of the a1xcoin Core software, see 
+   https://a1xcoin.blogspot.com/2018/02/wallet.html
                                               
 # Intro
 
