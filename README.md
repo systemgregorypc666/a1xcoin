@@ -12,7 +12,7 @@ Implementación oficial  del
    For more information, as well as an immediately usable, binary version of the a1xcoin Core software, see 
    https://a1xcoin.blogspot.com/2018/02/wallet.html
                                               
-# Intro
+# Intro  License
 
 a1xcoin es un proyecto de fuente abierta gratuito derivado de otras criptomoneda, con el objetivo de proporcionar una criptomoneda basada en la prueba de la eficacia a largo plazo basada en la actividad humana y maquina IA. Construidas sobre la base de codigo y ADN, las innovaciones, como la prueba de participación, ayudan a avanzar aún más en el campo de la criptomoneda.
 
