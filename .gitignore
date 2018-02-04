@@ -1,47 +1,19 @@
-# # Compiled Object files
-bin /
-bin-debug/
-bin-release/
-[Oo]bj/ # FlashDevelop obj
-[Bb]in/ # FlashDevelop bin
-*.slo
-*.lo
-*.o
-*.obj
+src/a1xcoind
+src/test_a1xcoin
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Ignore build dir
+build/
 
-# Other files and folders
-.settings/
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+a1xcoin-qt
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-*.exe
-*.out
-*.app
+# Resources cpp
+qrc_*.cpp
 
+# Qt creator
+*.pro.user
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
-
-# hyperstake stuff
-
-object_script.*
+# Mac specific
 .DS_Store
-hyperstake-qt
-hyperstake-qt.exe
-hyperstaked
-hyperstaked.exe
-qrc_bitcoin.cpp
-build/*
-release/*
-makefile.release
-makefile.debug
-makefile
