@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A1x Creahachip Sovereign (A1X) - Official Portal</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Inter & Rajdhani for futuristic sovereign look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: {
+                            400: '#FACC15',
+                            500: '#EAB308',
+                            600: '#CA8A04',
+                            700: '#A16207',
+                        },
+                        sovereign: {
+                            900: '#0B0F19',
+                            800: '#111827',
+                            700: '#1F2937',
+                            border: '#374151'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        tech: ['Rajdhani', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gold-glow {
+            box-shadow: 0 0 25px rgba(234, 179, 8, 0.25);
+        }
+        .gold-text-glow {
+            text-shadow: 0 0 12px rgba(234, 179, 8, 0.4);
+        }
+        .bg-tech-pattern {
+            background-image: radial-gradient(rgba(234, 179, 8, 0.1) 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+    </style>
+</head>
+<body class="bg-sovereign-900 text-gray-100 font-sans antialiased selection:bg-gold-500 selection:text-black min-h-screen flex flex-col justify-between bg-tech-pattern">
+
+    <!-- HEADER / NAVIGATION -->
+    <header class="sticky top-0 z-50 backdrop-blur-md bg-sovereign-900/80 border-b border-sovereign-border">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Logo & Brand Identifier Area -->
+                <div class="flex items-center space-x-4">
+                    <!-- Circular Logo Container -->
+                    <div class="relative group">
+                        <div class="w-14 h-14 rounded-full border-2 border-gold-500/80 p-0.5 bg-sovereign-800 flex items-center justify-center overflow-hidden gold-glow transition-transform duration-300 group-hover:scale-105">
+                            <!-- User Editable Logo Element -->
+                            <img id="logoImg" src="logo.png" alt="A1X Logo" class="w-full h-full object-cover rounded-full" onerror="this.onerror=null; this.src='https://placehold.co/150x150/111827/EAB308?text=A1X';">
+                        </div>
+                        <span class="absolute bottom-0 right-0 w-3.5 h-3.5 bg-green-500 border-2 border-sovereign-900 rounded-full"></span>
+                    </div>
+                    <div>
+                        <span class="font-tech text-xl sm:text-2xl font-bold tracking-wider text-white flex items-center gap-1.5">
+                            A1X <span class="text-gold-500 font-normal text-sm sm:text-base border border-gold-500/40 px-2 py-0.5 rounded bg-gold-500/10">SOVEREIGN</span>
+                        </span>
+                        <p class="text-xs text-gray-400 font-tech tracking-widest uppercase">System Gregory PC</p>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation Links -->
+                <nav class="hidden md:flex space-x-8 font-medium text-sm">
+                    <a href="#about" class="text-gray-300 hover:text-gold-400 transition-colors">Acerca de</a>
+                    <a href="#contract" class="text-gray-300 hover:text-gold-400 transition-colors">Contrato</a>
+                    <a href="#features" class="text-gray-300 hover:text-gold-400 transition-colors">Ecosistema</a>
+                    <a href="#contact" class="text-gray-300 hover:text-gold-400 transition-colors">Contacto</a>
+                </nav>
+
+                <!-- BSC Scan External Button -->
+                <div class="hidden sm:flex items-center space-x-3">
+                    <a href="https://bscscan.com/token/0x1aD4EeA4661D20e16C992237Ea0C30a2a06FE045" target="_blank" rel="noopener noreferrer" class="bg-gold-500/10 border border-gold-500/50 hover:bg-gold-500 hover:text-black text-gold-400 font-tech font-semibold px-4 py-2 rounded-lg transition-all duration-300 flex items-center gap-2">
+                        <i class="fa-solid fa-cube"></i>
+                        <span>BscScan</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        <!-- HERO SECTION -->
+        <section id="about" class="relative py-20 lg:py-32 overflow-hidden">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div class="text-center max-w-3xl mx-auto">
+                    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-gold-500/30 bg-gold-500/10 text-gold-400 text-xs sm:text-sm font-tech tracking-wide mb-6">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        Moneda Oficial & Motor Económico Micronacional
+                    </div>
+                    <h1 class="font-tech text-4xl sm:text-6xl font-bold tracking-tight text-white mb-6 leading-tight">
+                        A1x Creahachip <br><span class="text-gold-500 gold-text-glow">Sovereign (A1X)</span>
+                    </h1>
+                    <p class="text-gray-300 text-base sm:text-lg mb-8 leading-relaxed">
+                        Infraestructura financiera descentralizada y estándar soberano diseñado para micropagos IA, transacciones Machine-to-Machine y la economía autónoma de la **Micronación Creahachip** bajo la dirección de **System Gregory PC**.
+                    </p>
+                    <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                        <a href="#contract" class="w-full sm:w-auto bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-black font-tech font-bold text-lg px-8 py-3.5 rounded-xl shadow-lg shadow-gold-500/20 transition-all duration-300">
+                            Verificar Contrato
+                        </a>
+                        <a href="https://bscscan.com/token/0x1aD4EeA4661D20e16C992237Ea0C30a2a06FE045" target="_blank" class="w-full sm:w-auto border border-sovereign-border bg-sovereign-800/80 hover:bg-sovereign-700 text-gray-200 font-tech font-bold text-lg px-8 py-3.5 rounded-xl transition-all duration-300">
+                            Explorar en BSC
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTRACT INFORMATION SECTION -->
+        <section id="contract" class="py-16 bg-sovereign-800/50 border-y border-sovereign-border relative">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="font-tech text-3xl font-bold text-white tracking-wide">Datos del Contrato Inteligente</h2>
+                    <p class="text-gray-400 text-sm mt-2">Registrado y activo en la red Binance Smart Chain (BSC)</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+                    <!-- Contract Address Card -->
+                    <div class="bg-sovereign-900 border border-sovereign-border rounded-xl p-6 relative group hover:border-gold-500/40 transition-colors">
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-xs font-tech text-gold-400 uppercase tracking-wider">Dirección del Contrato (BSC)</span>
+                            <i class="fa-solid fa-file-contract text-gold-500/60"></i>
+                        </div>
+                        <div class="font-mono text-xs sm:text-sm text-gray-200 bg-sovereign-800 p-3 rounded-lg break-all border border-sovereign-border/60 mb-4" id="contractAddr">
+                            0x1aD4EeA4661D20e16C992237Ea0C30a2a06FE045
+                        </div>
+                        <button onclick="copyToClipboard('0x1aD4EeA4661D20e16C992237Ea0C30a2a06FE045', 'btnCopyAddress')" id="btnCopyAddress" class="w-full bg-sovereign-800 hover:bg-gold-500 hover:text-black border border-sovereign-border text-gray-300 font-tech font-semibold text-sm py-2 px-4 rounded-lg transition-all flex items-center justify-center gap-2">
+                            <i class="fa-regular fa-copy"></i>
+                            <span>Copiar Dirección</span>
+                        </button>
+                    </div>
+
+                    <!-- Creation Hash Card -->
+                    <div class="bg-sovereign-900 border border-sovereign-border rounded-xl p-6 relative group hover:border-gold-500/40 transition-colors">
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-xs font-tech text-gold-400 uppercase tracking-wider">Hash de Creación Oficial</span>
+                            <i class="fa-solid fa-hashtag text-gold-500/60"></i>
+                        </div>
+                        <div class="font-mono text-xs sm:text-sm text-gray-200 bg-sovereign-800 p-3 rounded-lg break-all border border-sovereign-border/60 mb-4" id="creationHash">
+                            0xaf7d0fcbaa611d3baca50755f4db175f58c4705feb97a0eb4d2f1c8ea7fd7242
+                        </div>
+                        <button onclick="copyToClipboard('0xaf7d0fcbaa611d3baca50755f4db175f58c4705feb97a0eb4d2f1c8ea7fd7242', 'btnCopyHash')" id="btnCopyHash" class="w-full bg-sovereign-800 hover:bg-gold-500 hover:text-black border border-sovereign-border text-gray-300 font-tech font-semibold text-sm py-2 px-4 rounded-lg transition-all flex items-center justify-center gap-2">
+                            <i class="fa-regular fa-copy"></i>
+                            <span>Copiar TxHash</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Verified Details Bar -->
+                <div class="mt-8 bg-sovereign-900/90 border border-sovereign-border rounded-xl p-4 max-w-4xl mx-auto flex flex-wrap items-center justify-between gap-4 text-xs sm:text-sm">
+                    <div class="flex items-center gap-2 text-gray-300">
+                        <i class="fa-solid fa-building text-gold-500"></i>
+                        <span>Organización: <strong class="text-white">System Gregory PC</strong></span>
+                    </div>
+                    <div class="flex items-center gap-2 text-gray-300">
+                        <i class="fa-solid fa-envelope text-gold-500"></i>
+                        <span>Contacto: <a href="mailto:a1xcoinchip@gmail.com" class="text-gold-400 hover:underline">a1xcoinchip@gmail.com</a></span>
+                    </div>
+                    <div class="flex items-center gap-2 text-gray-300">
+                        <i class="fa-solid fa-network-wired text-gold-500"></i>
+                        <span>Red: <strong class="text-white">BSC (BEP-20)</strong></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FEATURES GRID -->
+        <section id="features" class="py-20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-2xl mx-auto mb-16">
+                    <h2 class="font-tech text-3xl sm:text-4xl font-bold text-white tracking-wide">Pilares Tecnológicos de A1X</h2>
+                    <p class="text-gray-400 mt-3 text-sm sm:text-base">Diseñado bajo estándares de alta precisión financiera e integración de inteligencia artificial.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Feature 1 -->
+                    <div class="bg-sovereign-800/40 border border-sovereign-border rounded-xl p-6 hover:border-gold-500/50 transition-all duration-300">
+                        <div class="w-12 h-12 bg-gold-500/10 border border-gold-500/30 rounded-lg flex items-center justify-center text-gold-400 text-xl mb-4">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <h3 class="font-tech text-xl font-bold text-white mb-2">Compatibilidad ISO 20022</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed">Estructurado para cumplir con los estándares globales de mensajería financiera interbancaria.</p>
+                    </div>
+
+                    <!-- Feature 2 -->
+                    <div class="bg-sovereign-800/40 border border-sovereign-border rounded-xl p-6 hover:border-gold-500/50 transition-all duration-300">
+                        <div class="w-12 h-12 bg-gold-500/10 border border-gold-500/30 rounded-lg flex items-center justify-center text-gold-400 text-xl mb-4">
+                            <i class="fa-solid fa-robot"></i>
+                        </div>
+                        <h3 class="font-tech text-xl font-bold text-white mb-2">Micropagos IA & M2M</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed">Optimizado para transferencias ultra rápidas entre agentes de inteligencia artificial y máquinas autónomas.</p>
+                    </div>
+
+                    <!-- Feature 3 -->
+                    <div class="bg-sovereign-800/40 border border-sovereign-border rounded-xl p-6 hover:border-gold-500/50 transition-all duration-300">
+                        <div class="w-12 h-12 bg-gold-500/10 border border-gold-500/30 rounded-lg flex items-center justify-center text-gold-400 text-xl mb-4">
+                            <i class="fa-solid fa-crown"></i>
+                        </div>
+                        <h3 class="font-tech text-xl font-bold text-white mb-2">Gobernanza Soberana</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed">Moneda central y reserva de valor respaldada por el ecosistema de la Micronación Creahachip.</p>
+                    </div>
+
+                    <!-- Feature 4 -->
+                    <div class="bg-sovereign-800/40 border border-sovereign-border rounded-xl p-6 hover:border-gold-500/50 transition-all duration-300">
+                        <div class="w-12 h-12 bg-gold-500/10 border border-gold-500/30 rounded-lg flex items-center justify-center text-gold-400 text-xl mb-4">
+                            <i class="fa-solid fa-coins"></i>
+                        </div>
+                        <h3 class="font-tech text-xl font-bold text-white mb-2">Liquidez Automatizada</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed">Mecanismo con tasa automatizada del 2% enfocada en sostenibilidad y respaldo del token.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="contact" class="bg-sovereign-950 border-t border-sovereign-border py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
+                <div>
+                    <span class="font-tech text-xl font-bold text-white">System Gregory PC</span>
+                    <p class="text-xs text-gray-500 mt-1">
+                        © 2026 A1x Creahachip Sovereign (A1X). Todos los derechos reservados.
+                    </p>
+                </div>
+                <div class="flex items-center space-x-6 text-gray-400">
+                    <a href="mailto:a1xcoinchip@gmail.com" class="hover:text-gold-400 transition-colors flex items-center gap-2 text-sm">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>a1xcoinchip@gmail.com</span>
+                    </a>
+                    <a href="https://systemgregorypc666.github.io/a1xcoin/" target="_blank" class="hover:text-gold-400 transition-colors flex items-center gap-2 text-sm">
+                        <i class="fa-solid fa-globe"></i>
+                        <span>Portal Web</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT FOR INTERACTION & LOGO SCRIPT -->
+    <script>
+        // Function to copy text to clipboard without modern iframe permission restrictions
+        function copyToClipboard(text, buttonId) {
+            const tempInput = document.createElement('input');
+            tempInput.value = text;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempInput);
+
+            const btn = document.getElementById(buttonId);
+            const originalHTML = btn.innerHTML;
+            
+            btn.innerHTML = '<i class="fa-solid fa-check text-green-400"></i> <span class="text-green-400">¡Copiado!</span>';
+            btn.classList.add('border-green-500/50');
+
+            setTimeout(() => {
+                btn.innerHTML = originalHTML;
+                btn.classList.remove('border-green-500/50');
+            }, 2000);
+        }
+    </script>
+</body>
+</html>
